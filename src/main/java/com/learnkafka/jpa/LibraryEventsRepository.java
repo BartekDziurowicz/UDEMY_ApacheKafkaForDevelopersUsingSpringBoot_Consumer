@@ -1,6 +1,6 @@
-package com.learncafka.jpa;
+package com.learnkafka.jpa;
 
-import com.learncafka.entity.LibraryEvent;
+import com.learnkafka.entity.LibraryEvent;
 import org.springframework.data.repository.CrudRepository;
 
 public interface LibraryEventsRepository extends CrudRepository<LibraryEvent, Integer> {

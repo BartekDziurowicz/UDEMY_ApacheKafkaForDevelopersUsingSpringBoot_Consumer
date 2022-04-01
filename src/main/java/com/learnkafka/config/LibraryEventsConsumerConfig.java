@@ -1,4 +1,4 @@
-package com.learncafka.config;
+package com.learnkafka.config;
 
 import org.springframework.boot.autoconfigure.kafka.ConcurrentKafkaListenerContainerFactoryConfigurer;
 import org.springframework.context.annotation.Bean;

@@ -1,9 +1,9 @@
-package com.learncafka.service;
+package com.learnkafka.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.learncafka.entity.LibraryEvent;
-import com.learncafka.jpa.LibraryEventsRepository;
+import com.learnkafka.entity.LibraryEvent;
+import com.learnkafka.jpa.LibraryEventsRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @Service
 @Slf4j
-public class LibraryEventService {
+public class LibraryEventsService {
 
     @Autowired
     ObjectMapper objectMapper;

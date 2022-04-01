@@ -1,4 +1,4 @@
-package com.learncafka.entity;
+package com.learnkafka.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

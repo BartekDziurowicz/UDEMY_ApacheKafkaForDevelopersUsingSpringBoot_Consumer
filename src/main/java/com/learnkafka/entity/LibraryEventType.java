@@ -1,4 +1,4 @@
-package com.learncafka.entity;
+package com.learnkafka.entity;
 
 public enum LibraryEventType {
     NEW,
